@@ -1,0 +1,29 @@
+body {
+  padding-top: 70px;
+  font-family: Arial, sans-serif;
+}
+
+.hero {
+  padding: 100px 0;
+  background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+  color: white;
+}
+
+.section {
+  padding: 60px 0;
+}
+
+.project {
+  margin-bottom: 20px;
+}
+/* Scroll reveal animation */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  transition: all 0.8s ease-out;
+}
+
+.reveal.active {
+  opacity: 1;
+  transform: translateY(0);
+}
